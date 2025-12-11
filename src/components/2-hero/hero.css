@@ -49,7 +49,7 @@ section.hero p.sub-title {
 }
 
 /* ============================
-  ICONS — FLEX + HOVER
+    ICONS — FLEX + HOVER
 ============================ */
 
 section.hero .all-icons {
@@ -60,7 +60,7 @@ section.hero .all-icons {
   font-size: 1.3rem;
 }
 
-/* روابط */
+/* كل الروابط */
 .all-icons a {
   display: inline-flex;
   align-items: center;
@@ -68,13 +68,14 @@ section.hero .all-icons {
   transition: transform 0.25s ease, filter 0.25s ease, color 0.25s ease;
 }
 
+/* hover عام */
 .all-icons a:hover {
   transform: scale(1.18) translateY(-2px);
   filter: brightness(1.2);
 }
 
 /* =============================
-  FontAwesome icons
+  أيقونات من FontAwesome
 ============================== */
 
 .all-icons i,
@@ -83,18 +84,18 @@ section.hero .all-icons {
 }
 
 /* =============================
-  Image-based icons (GitHub / LinkedIn)
+  أيقونات داخل div (GitHub – LinkedIn)
 ============================== */
 
 .icon {
   width: 32px;
   height: 32px;
-  background-size: 60%;
-  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   transition: transform 0.25s ease, filter 0.25s ease;
 }
 
+/* الشكل العام لكل الأيقونات */
 .icon-item,
 .icon {
   width: 34px;
@@ -104,6 +105,13 @@ section.hero .all-icons {
   justify-content: center;
   font-size: 1.1rem;
   transition: 0.3s ease;
+}
+
+/* GitHub و LinkedIn (أيقونات صورة) */
+.icon {
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* GitHub */
@@ -120,84 +128,29 @@ section.hero .all-icons {
   background-image: url("/linkedin.png");
 }
 
-/* ============================
-  DESKTOP vs MOBILE VISIBILITY
-============================ */
+.icon-linkedin:hover {
+  color: rgb(13, 110, 253) !important;
+}
 
-.desktop-only.all-icons {
+/* =============================
+  ألوان hover مخصصة
+============================== */
+
+.all-icons i.fa-whatsapp:hover {
+  color: #25D366 !important;
+}
+
+.all-icons svg:hover {
+  color: #00bfa5;
+}
+
+.all-icons a[title="Open CV"]:hover svg {
+  color: #0d6efd;
+}
+
+.all-icons {
   display: flex;
   align-items: center;
   gap: 1.4rem;
-}
-
-.mobile-only.all-icons {
-  display: none;
-
-  align-items: flex-start !important;
-}
-
-/* ============================
-      MOBILE BUTTON DESIGN
-============================ */
-
-.mobile-only.all-icons button {
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  display: flex;
-  gap: 5px;
-  text-align: center;
-  background-color: rgba(36, 37, 46, 1);
-  width: 11rem;
-  font-size: 1.05rem;
-  text-transform: capitalize;
-  opacity: 0.5;
-  border-radius: 5px;
-  border: 1px solid var(--blue);
-
-
-  /* ========== تعديل العرض ========= */
-  width: 160px;
-  /* عرض ثابت لكل الزرار */
-  /* ================================= */
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* hover effect */
-.mobile-only.all-icons button:hover {
-  background-color: rgb(25, 118, 210);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-.mobile-only {
-  display: none !important;
-}
-
-/* ============================
-      MEDIA QUERY
-============================ */
-
-@media (max-width: 768px) {
-
-  .desktop-only.all-icons {
-    display: none !important;
-  }
-
-  /* إظهار الأزرار على الموبايل */
-  .mobile-only {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    /* يخلي كل الزرار في منتصف الصفحة */
-    gap: 12px;
-    /* مسافة بين الأزرار متساوية */
-    width: 100%;
-  }
+  /* مسافة ثابتة */
 }

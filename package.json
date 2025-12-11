@@ -17,7 +17,6 @@
     "@fortawesome/free-regular-svg-icons": "^7.1.0",
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/react-fontawesome": "^3.1.1",
-    "bootstrap": "^5.3.8",
     "framer-motion": "^10.12.16",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",

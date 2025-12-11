@@ -6,8 +6,6 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faFile } from "@fortawesome/free-regular-svg-icons";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const Hero = () => {
   const lottieRef = useRef();
@@ -47,7 +45,7 @@ const Hero = () => {
           end-to-end web applications.
         </p>
 
-        <div className="desktop-only all-icons flex">
+        <div className="all-icons flex">
           <a
             href="/Abdullah-Khoudary-Resume.pdf"
             target="_blank"
@@ -82,68 +80,6 @@ const Hero = () => {
             title="Open my LinkedIn profile"
           >
             <div className="icon icon-linkedin"></div>
-          </a>
-        </div>
-        <div className="mobile-only all-icons flex">
-          <a
-            href="/Abdullah-Khoudary-Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            title="Open CV"
-          >
-            <button type="button" className="btn btn-outline-primary">
-              {" "}
-              <FontAwesomeIcon icon={faFile} size="1x" color="inherit" />
-              Download CV
-            </button>
-          </a>
-          <a
-            href="https://api.whatsapp.com/send/?phone=201281235360&text&type=phone_number&app_absent=0"
-            target="_blank"
-            rel="noreferrer"
-            title="Connect me via wattsApp"
-          >
-            <button>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "10px",
-                  fontSize: "18px",
-                  cursor: "pointer",
-                }}
-              >
-                <i
-                  className="fa-brands fa-whatsapp"
-                  style={{ fontSize: "24px" }}
-                ></i>
-                <span>Contact Us</span>
-              </div>
-            </button>
-          </a>
-          <a
-            href="https://github.com/Khodairy"
-            target="_blank"
-            rel="noreferrer"
-            title="Open my github profile"
-          >
-            <button>
-              <div className="icon icon-github">
-                <span style={{ marginLeft: "10px" }}>GitHub</span>
-              </div>
-            </button>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/abdalla-khodairy-94b345244/"
-            target="_blank"
-            rel="noreferrer"
-            title="Open my LinkedIn profile"
-          >
-            <button>
-              <div className="icon icon-linkedin">
-                <span style={{ marginLeft: "10px" }}>LinkedIn</span>
-              </div>
-            </button>
           </a>
         </div>
       </div>
