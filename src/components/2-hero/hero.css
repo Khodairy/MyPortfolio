@@ -137,7 +137,7 @@ section.hero .all-icons {
 }
 
 .all-icons a[title="Open CV"]:hover {
-  color: #ffffff !important;
+  color: #5a5858 !important;
 }
 
 .all-icons a[title="Connect me"]:hover {
@@ -145,7 +145,7 @@ section.hero .all-icons {
 }
 
 .all-icons a[title="github"]:hover {
-  color: rgb(245, 246, 247);
+  color: rgb(67, 67, 68);
 }
 
 .all-icons a[title="LinkedIn"]:hover {
@@ -176,7 +176,9 @@ section.hero .all-icons {
   }
 
   .display-mobile button {
-    background-color: rgba(36, 37, 46, 1);
+    background-color: var(--primary);
+    border: var(--blue) 1px solid;
+    /* color: var(--subtitle); */
     width: 11rem;
     padding: 0.75rem 0;
     text-align: center;
