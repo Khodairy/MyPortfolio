@@ -47,7 +47,7 @@ const Hero = () => {
 
         <div className="all-icons flex">
           <a
-            href="/public/Abdullah-Khoudary-Resume.pdf"
+            href="/Abdullah-Khoudary-Resume.pdf"
             target="_blank"
             rel="noreferrer"
             title="Open CV"
