@@ -190,6 +190,7 @@ section.hero .all-icons {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.3);
   }
 
 }
