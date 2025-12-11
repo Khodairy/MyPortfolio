@@ -45,7 +45,7 @@ const Hero = () => {
           end-to-end web applications.
         </p>
 
-        <div className="all-icons flex">
+        <div className="display-disktop all-icons flex">
           <a
             href="/Abdullah-Khoudary-Resume.pdf"
             target="_blank"
@@ -80,6 +80,56 @@ const Hero = () => {
             title="Open my LinkedIn profile"
           >
             <div className="icon icon-linkedin"></div>
+          </a>
+        </div>
+
+        <div className="display-mobile all-icons flex">
+          <a
+            href="/Abdullah-Khoudary-Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            title="Open CV"
+          >
+            <button>
+              <FontAwesomeIcon icon={faFile} size="1x" color="inherit" />
+              <span style={{ marginLeft: "5px" }}>Download CV</span>
+            </button>
+          </a>
+
+          <a
+            href="https://api.whatsapp.com/send/?phone=201281235360&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noreferrer"
+            title="Connect me"
+          >
+            <button>
+              <i className="fa-brands fa-whatsapp"></i>
+              <span style={{ marginLeft: "10px" }}>Contact Me</span>
+            </button>
+          </a>
+
+          <a
+            href="https://github.com/Khodairy"
+            target="_blank"
+            rel="noreferrer"
+            title="github"
+          >
+            <button>
+              <div className="icon icon-github"></div>
+              GitHub
+            </button>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/abdalla-khodairy-94b345244/"
+            target="_blank"
+            rel="noreferrer"
+            title="LinkedIn"
+          >
+            <button>
+              <div className="icon icon-linkedin"></div>
+              LinkedIN
+            </button>
           </a>
         </div>
       </div>
