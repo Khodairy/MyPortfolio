@@ -98,7 +98,7 @@ header .fixed {
   background-color: rgba(40, 40, 48, 0.91);
 
   /* filter: blur(8px); */
-  backdrop-filter: blur(4px);
+  background-color: rgba(40, 40, 48, 0.91);
 }
 
 @keyframes mymove {
@@ -118,7 +118,7 @@ header .fixed {
 header .fixed ul.modal {
   animation: mymove 0.77s 1;
   width: 75%;
-margin-inline: auto;
+  margin-inline: auto;
 
 
   margin-top: 2rem;
