@@ -3,7 +3,7 @@ export const myProjects = [
   {
     projectTitle: "Todo List",
     category: ["react"],
-    imgPath: "/public/images/todoList.png",
+    imgPath: "/images/todoList.png",
     pathLink: "https://todolist-do.netlify.app",
     gitHubLink: "https://github.com/Khodairy/TodoList",
     info: `Technologies:
@@ -16,7 +16,7 @@ TodoList is a dynamic web application built with React and Material-UI, allowing
   {
     projectTitle: "VibePost Web",
     category: ["js"],
-    imgPath: "/public/images/vibePost.png",
+    imgPath: "/images/vibePost.png",
     pathLink: "https://vibeposts.netlify.app/home",
     gitHubLink: "https://github.com/Khodairy/vibePost",
     info: `Technologies: HTML, CSS, Bootstrap, JavaScript.
@@ -28,7 +28,7 @@ vibePost is a full-featured social web app where users can register, login, logo
   {
     projectTitle: "Pray Times",
     category: ["js"],
-    imgPath: "/public/images/praytimes.png",
+    imgPath: "/images/praytimes.png",
     pathLink: "https://khodairy.github.io/PrayerTimes/",
     gitHubLink: "https://github.com/Khodairy/PrayerTimes",
     info: `Technologies: HTML, CSS, JavaScript
@@ -40,7 +40,7 @@ PrayTimes is a web app that displays prayer times for multiple cities. Users can
   {
     projectTitle: "Dash Board",
     category: ["css"],
-    imgPath: "/public/images/dashboard.png",
+    imgPath: "/images/dashboard.png",
     pathLink: "https://khodairy.github.io/khodairy_dashboard_web/",
     gitHubLink: "https://github.com/Khodairy/khodairy_dashboard_web",
     info: `Technologies: HTML, Bure CSS
@@ -55,7 +55,7 @@ The app features a clean and responsive design built with HTML and Bure CSS for 
   {
     projectTitle: "TeamInfo",
     category: ["css"],
-    imgPath: "/public/images/teamInfo.png",
+    imgPath: "/images/teamInfo.png",
     pathLink: "https://khodairy.github.io/Team-Information/",
     gitHubLink: "https://github.com/Khodairy/Team-Information",
     info: `Technologies: HTML, Bure CSS
@@ -69,7 +69,7 @@ The app focuses on clean design and responsiveness using HTML and Bure CSS.`,
   {
     projectTitle: "Kasper UI Web",
     category: ["css"],
-    imgPath: "/public/images/kaspar.png",
+    imgPath: "/images/kaspar.png",
     pathLink: "https://khodairy.github.io/Kasper/",
     gitHubLink: "https://github.com/Khodairy/Kasper",
     info: `Technologies:
@@ -82,7 +82,7 @@ Kasper is a UI-only project built using HTML and Pure CSS to practice and learn 
   {
     projectTitle: "Leon UI Web",
     category: ["css"],
-    imgPath: "/public/images/leon.png",
+    imgPath: "/images/leon.png",
     pathLink: "https://khodairy.github.io/Leon-web/",
     gitHubLink: "https://github.com/Khodairy/Leon-web",
     info: `Technologies: HTML, Bure CSS
@@ -95,7 +95,7 @@ Leon is a UI-only project built using HTML and Bure CSS to practice and learn th
   {
     projectTitle: "Slider Images",
     category: ["js"],
-    imgPath: "/public/images/slideImage.png",
+    imgPath: "/images/slideImage.png",
     pathLink: "https://khodairy.github.io/slider_of_images/",
     gitHubLink: "https://github.com/Khodairy/slider_of_images",
     info: `Technologies:
