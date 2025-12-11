@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <p>© 2025 Khoudary All rights reserved.</p>
+      <p>© 2025 Khodairy All rights reserved.</p>
     </footer>
   );
 };
