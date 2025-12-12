@@ -62,12 +62,14 @@ main section.right-section.flex {
 .card {
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.16), 1px 1px 1px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(93, 188, 252, 0.3);
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.3s;
   background-image: linear-gradient(rgba(255, 255, 255, 0.05),
       rgba(255, 255, 255, 0.05));
   border: 1px solid var(--border-card);
   position: relative;
+  box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.3);
+
 }
 
 .card img {

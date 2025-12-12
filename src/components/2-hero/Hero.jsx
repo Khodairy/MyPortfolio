@@ -59,7 +59,7 @@ const Hero = () => {
             href="https://api.whatsapp.com/send/?phone=201281235360&text&type=phone_number&app_absent=0"
             target="_blank"
             rel="noreferrer"
-            title="Connect me via wattsApp"
+            title="Connect me"
           >
             <i className="fa-brands fa-whatsapp"></i>
           </a>
@@ -68,7 +68,7 @@ const Hero = () => {
             href="https://github.com/Khodairy"
             target="_blank"
             rel="noreferrer"
-            title="Open my github profile"
+            title="github"
           >
             <div className="icon icon-github"></div>
           </a>
@@ -77,7 +77,7 @@ const Hero = () => {
             href="https://www.linkedin.com/in/abdalla-khodairy-94b345244/"
             target="_blank"
             rel="noreferrer"
-            title="Open my LinkedIn profile"
+            title="LinkedIn"
           >
             <div className="icon icon-linkedin"></div>
           </a>
@@ -85,7 +85,7 @@ const Hero = () => {
 
         <div className="display-mobile all-icons flex">
           <a
-            href="/Abdullah-Khoudary-Resume.pdf"
+            href="https://www.linkedin.com/in/abdalla-khodairy-94b345244/"
             target="_blank"
             rel="noreferrer"
             title="Open CV"

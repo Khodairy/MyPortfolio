@@ -119,9 +119,9 @@ section.hero .all-icons {
   background-image: url("/github.png");
 }
 
-.icon-github:hover {
+/* .icon-github:hover {
   filter: drop-shadow(0 0 5px #333);
-}
+} */
 
 /* LinkedIn */
 .icon-linkedin {
@@ -131,13 +131,15 @@ section.hero .all-icons {
 /* =============================
   ألوان hover مخصصة
 ============================== */
-
-.all-icons i.fa-whatsapp:hover {
-  color: #feffff !important;
+.display-disktop.all-icons a {
+  width: 25px;
+  height: 25px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 
 .all-icons a[title="Open CV"]:hover {
-  color: #5a5858 !important;
+  color: #0d6efd !important;
 }
 
 .all-icons a[title="Connect me"]:hover {
@@ -145,12 +147,13 @@ section.hero .all-icons {
 }
 
 .all-icons a[title="github"]:hover {
-  color: rgb(67, 67, 68);
+  color: rgb(81, 81, 84);
 }
 
 .all-icons a[title="LinkedIn"]:hover {
-  color: #0d6efd;
+  color: #0d6efd !important;
 }
+
 
 
 .all-icons {
@@ -177,7 +180,7 @@ section.hero .all-icons {
 
   .display-mobile button {
     background-color: var(--primary);
-    border: var(--blue) 1px solid;
+    border: rgb(231 227 227) 1px solid;
     /* color: var(--subtitle); */
     width: 11rem;
     padding: 0.75rem 0;
@@ -190,7 +193,7 @@ section.hero .all-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.3) inset;
   }
 
 }
