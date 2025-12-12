@@ -85,14 +85,14 @@ const Hero = () => {
 
         <div className="display-mobile all-icons flex">
           <a
-            href="https://www.linkedin.com/in/abdalla-khodairy-94b345244/"
+            href="/Abdullah-Khoudary-Resume.pdf"
             target="_blank"
             rel="noreferrer"
             title="Open CV"
           >
             <button>
               <FontAwesomeIcon icon={faFile} size="1x" color="inherit" />
-              <span style={{ marginLeft: "5px" }}>Download CV</span>
+              <span style={{ marginLeft: "5px" }}>Open CV</span>
             </button>
           </a>
 
