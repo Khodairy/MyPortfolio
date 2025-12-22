@@ -47,7 +47,7 @@ const Hero = () => {
 
         <div className="display-disktop all-icons flex">
           <a
-            href="/Abdullah-Khoudary-Resume.pdf"
+            href="/Abdallah-Khodairy-Resume.pdf"
             target="_blank"
             rel="noreferrer"
             title="Open CV"
@@ -85,7 +85,7 @@ const Hero = () => {
 
         <div className="display-mobile all-icons flex">
           <a
-            href="/Abdullah-Khoudary-Resume.pdf"
+            href="/Abdallah-Khodairy-Resume.pdf"
             target="_blank"
             rel="noreferrer"
             title="Open CV"
