@@ -35,7 +35,7 @@ const Hero = () => {
         </motion.h1>
 
         <p className="sub-title">
-          I’m Abdullah Khoudary, a passionate Front-End Developer and web
+          I’m Abdallah Khodairy, a passionate Front-End Developer and web
           designer based in Egypt. I specialize in crafting responsive,
           user-centered web experiences using React.js and modern JavaScript
           frameworks. I love blending creativity with clean code to bring ideas
