@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+
+// أيقونات FA
 import {
   FaHtml5,
   FaCss3Alt,
@@ -8,11 +10,21 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaGithub,
+  FaFigma,
+  FaBootstrap,
+  FaServer,
 } from "react-icons/fa";
-import { FaFigma, FaBootstrap } from "react-icons/fa";
-import MaterialUILogo from "../../assets/icons/material-ui.svg";
+import { SiExpress } from "react-icons/si";
 
-import { SiMongodb, SiTailwindcss, SiTypescript } from "react-icons/si";
+// أيقونات SI
+import {
+  SiNestjs,
+  SiMongodb,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+
+import MaterialUILogo from "../../assets/icons/material-ui.svg";
 
 import "./skills.css";
 
@@ -21,8 +33,8 @@ const skills = [
   { name: "CSS3", icon: <FaCss3Alt />, color: "#264de4", level: 95 },
   { name: "JavaScript", icon: <FaJsSquare />, color: "#F7DF1E", level: 75 },
   { name: "React.js", icon: <FaReact />, color: "#61DBFB", level: 90 },
-  { name: "TailwindCSS", icon: <SiTailwindcss />, color: "#38BDF8", level: 70 },
-  { name: "Bootstrap", icon: <FaBootstrap />, color: "#7952B3", level: 80 },
+  { name: "TailwindCSS", icon: <SiTailwindcss />, color: "#38BDF8", level: 75 },
+  { name: "Bootstrap", icon: <FaBootstrap />, color: "#7952B3", level: 85 },
   {
     name: "Material UI",
     icon: (
@@ -35,8 +47,10 @@ const skills = [
     color: "#0081CB",
     level: 90,
   },
-  { name: "Node.js", icon: <FaNodeJs />, color: "#68A063", level: 20 },
-  { name: "MongoDB", icon: <SiMongodb />, color: "#4DB33D", level: 10 },
+  { name: "Node.js", icon: <FaNodeJs />, color: "#68A063", level: 60 },
+  { name: "Express.js", icon: <SiExpress />, color: "currentColor", level: 60 },
+  { name: "Nest.js", icon: <SiNestjs />, color: "#E0234E", level: 50 },
+  { name: "MongoDB", icon: <SiMongodb />, color: "#4DB33D", level: 50 },
 
   { name: "Git", icon: <FaGitAlt />, color: "#F1502F", level: 90 },
   {

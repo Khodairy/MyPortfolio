@@ -31,18 +31,20 @@ const Hero = () => {
           transition={{ duration: 2 }}
           className="title"
         >
-          Front-End Developer, UI Web Designer, and Creative Thinker.
+          Full Stack Developer | Crafting Elegant & Interactive Web Experiences
         </motion.h1>
 
         <p className="sub-title">
-          I’m Abdallah Khodairy, a passionate Front-End Developer and web
-          designer based in Egypt. I specialize in crafting responsive,
-          user-centered web experiences using React.js and modern JavaScript
-          frameworks. I love blending creativity with clean code to bring ideas
-          to life and build digital solutions that make people’s lives easier.
-          Currently, I’m expanding my skills into backend development with
-          Node.js, and soon I’ll be a full-stack MERN developer, ready to build
-          end-to-end web applications.
+          I’m Abdallah Khodairy, a Junior Full Stack Web Developer based in
+          Egypt. I build responsive and user-centered web applications using
+          HTML5, CSS3, JavaScript, and React.js, with a strong foundation in
+          frontend development and a growing focus on backend technologies. I’m
+          currently developing and practicing backend development using Node.js,
+          Express.js, and Nest.js, building RESTful APIs and integrating them
+          with frontend applications to create complete, end-to-end solutions. I
+          enjoy writing clean, maintainable code and continuously improving my
+          skills by working on real projects and learning best practices in
+          modern web development.
         </p>
 
         <div className="display-disktop all-icons flex">
