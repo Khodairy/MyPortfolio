@@ -76,7 +76,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/abdalla-khodairy-94b345244/"
+            href="https://www.linkedin.com/in/abdallah-khodairy/"
             target="_blank"
             rel="noreferrer"
             title="LinkedIn"
@@ -123,7 +123,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/abdalla-khodairy-94b345244/"
+            href="https://www.linkedin.com/in/abdallah-khodairy/"
             target="_blank"
             rel="noreferrer"
             title="LinkedIn"
