@@ -4,7 +4,6 @@ import devAnimation from "../../animation/dev.json";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faFile } from "@fortawesome/free-regular-svg-icons";
 
 const Hero = () => {
@@ -31,25 +30,25 @@ const Hero = () => {
           transition={{ duration: 2 }}
           className="title"
         >
-          Full Stack Developer | Crafting Elegant & Interactive Web Experiences
+          Frontend Engineer | Specialized in React.js & Modern Web UIs
         </motion.h1>
 
         <p className="sub-title">
-          I’m Abdallah Khodairy, a Junior Full Stack Web Developer based in
-          Egypt. I build responsive and user-centered web applications using
-          HTML5, CSS3, JavaScript, and React.js, with a strong foundation in
-          frontend development and a growing focus on backend technologies. I’m
-          currently developing and practicing backend development using Node.js,
-          Express.js, and Nest.js, building RESTful APIs and integrating them
-          with frontend applications to create complete, end-to-end solutions. I
-          enjoy writing clean, maintainable code and continuously improving my
-          skills by working on real projects and learning best practices in
-          modern web development.
+          I’m Abdallah Khodairy, a Frontend Developer based in Egypt with a
+          passion for building high-performance, scalable, and visually stunning
+          web applications. My core expertise is centered around React.js and
+          the modern JavaScript ecosystem, where I focus on creating seamless
+          user experiences and clean, maintainable code. To deliver truly
+          integrated solutions, I leverage a solid foundation in Node.js and
+          NestJS. This backend awareness allows me to architect front-end
+          systems that sync perfectly with APIs, ensuring optimized data flow
+          and robust application performance. I thrive on turning complex
+          problems into intuitive digital interfaces.
         </p>
 
         <div className="display-disktop all-icons flex">
           <a
-            href="/Abdallah-Khodairy-Resume.pdf"
+            href="/Abdallah_Khodairy_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             title="Open CV"
@@ -87,7 +86,7 @@ const Hero = () => {
 
         <div className="display-mobile all-icons flex">
           <a
-            href="/Abdallah-Khodairy-Resume.pdf"
+            href="/Abdallah_Khodairy_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             title="Open CV"
