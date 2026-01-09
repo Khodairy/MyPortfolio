@@ -10,7 +10,7 @@ export const myProjects = [
 React JS, Material-UI, HTML, CSS
 
 Description:
-TodoList is a dynamic web application built with React and Material-UI, allowing users to add, edit, delete, and mark tasks as completed. The project features a clean and responsive interface, interactive components, and demonstrates practical use of React state management and Material-UI styling.`,
+A high-performance Todo application built with React.js and Material-UI to master core and advanced React principles. This project serves as a comprehensive practice for managing complex state and side effects, implementing a full suite of React Hooks including useState, useContext, useReducer, useEffect, and useMemo. Beyond simple CRUD operations, it demonstrates a scalable architecture for state management and UI responsiveness.`,
   },
   // =========== VibePost ==========
   {

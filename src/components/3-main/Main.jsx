@@ -87,7 +87,9 @@ const Main = () => {
               key={item.imgPath}
               className="card"
             >
-              <img width={266} src={item.imgPath} alt={item.projectTitle} />
+              <a href={item.pathLink} target="_blank" rel="noopener noreferrer">
+                <img width={266} src={item.imgPath} alt={item.projectTitle} />
+              </a>
 
               <div style={{ width: "266px" }} className="box">
                 <h1 className="title">{item.projectTitle}</h1>
