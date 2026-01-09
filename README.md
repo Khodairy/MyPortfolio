@@ -19,9 +19,9 @@ A modern, responsive personal portfolio website built with **React.js** and **Vi
 ## 📖 Project Description
 
 This portfolio serves as my digital business card. It is designed to provide recruiters with a clear overview of my capabilities. Key sections include:
-- **Hero Section**: A brief introduction and professional summary.
-- **Skills**: A visual representation of my technical proficiency in various technologies.
+- **Hero Section**: A brief introduction and professional summary with links for my CV & others.
 - **Projects**: A curated gallery of my best work with live links.
+- **Skills**: A visual representation of my technical proficiency in various technologies.
 - **Contact Me**: Multiple ways to reach out, including social links and a professional CV download.
 
 ---
