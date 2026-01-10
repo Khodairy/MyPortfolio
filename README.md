@@ -62,7 +62,7 @@ Follow these steps to run the project locally on your machine:
 1. Clone the repository from GitHub:
 
 ```bash
-git clone [https://github.com/Khodairy/MyPortfolio.git](https://github.com/Khodairy/MyPortfolio.git)
+git clone https://github.com/Khodairy/MyPortfolio.git
 ```
 
 2. **Navigate to the project directory:**
