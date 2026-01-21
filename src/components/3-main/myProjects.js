@@ -78,6 +78,19 @@ HTML, Pure CSS
 Description:
 Kasper is a UI-only project built using HTML and Pure CSS to practice and learn the fundamentals of modern web UI design. The project focuses on clean structure, layout techniques, responsive design principles, and smooth CSS animations that add interactivity and enhance the user experience.`,
   },
+  // =========== Todo List ==========
+  {
+    projectTitle: "Today Weather",
+    category: ["react"],
+    imgPath: "/images/weather.png",
+    pathLink: "https://today-weather-seven.vercel.app/",
+    gitHubLink: "https://github.com/Khodairy/TodayWeather",
+    info: `Technologies:
+React JS, Rest APIs, Material-UI, HTML, CSS
+
+Description:
+A simple Today Weather application built with React.js and Material-UI to practice core React fundamentals. The project focuses on API integration, state management, and building a clean, responsive UI with Arabic and English language support.`,
+  },
   // =========== Leon ==========
   {
     projectTitle: "Leon UI Web",
