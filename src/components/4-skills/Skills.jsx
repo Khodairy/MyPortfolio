@@ -80,7 +80,7 @@ const skills = [
     level: "Proficient",
   },
   { name: "Nest.js", icon: <SiNestjs />, color: "#E0234E", level: "Familiar" },
-  { name: "MongoDB", icon: <SiMongodb />, color: "#4DB33D", level: "Familiar" },
+  { name: "MongoDB", icon: <SiMongodb />, color: "#4DB33D", level: "Proficient" },
 
   { name: "Git", icon: <FaGitAlt />, color: "#F1502F", level: "Proficient" },
   {
